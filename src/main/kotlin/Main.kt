@@ -214,7 +214,6 @@ fun Application.configureRouting() {
         configureHealthCheck()
 
         // Task management routes (main feature)
-        // TODO: Week 6 Lab 1 - Implement taskRoutes()
         taskRoutes()
     }
 }
