@@ -1,1 +1,9 @@
 id,title,story_ref,story_type,need,type,severity,inclusion_risk,evidence,notes,candidate_fix
+1,Add task count badge to interface,stories.md#S1,Job story,Quick workload assessment,Usability,Low,Cognitive,"P-C notes L177-L189",Display incomplete task count in header and browser tab; purely visual enhancement,false
+2,Full keyboard access for all actions,stories.md#S2,Job story,Keyboard-first workflow,Accessibility,High,"Keyboard,Motor","P-A notes L45-L59; WCAG 2.1.1",Icon-only controls lack keyboard access; needs comprehensive Tab navigation,true
+3,Notification control settings,stories.md#S3,Job story,Reduce alert overload,Usability,Medium,"Cognitive,Anxiety,Low digital literacy","P-B notes L75-L105; WCAG 3.2.4",Missing mute/group/priority controls; notifications cause anxiety,false
+4,Persistent escalating reminders,stories.md#S4,Job story,Prevent task forgetting,Accessibility,Medium,"Cognitive,Neurodivergent (ADHD)","P-C notes L143-L175; WCAG 3.3.2",One-off reminders easy to dismiss; needs nag-me functionality,false
+5,High-contrast theme toggle,stories.md#S5,Job story,Outdoor readability,Accessibility,High,"Low vision,Colour-blind,Environmental","P-A notes L61-L73, P-B notes L117-L129; WCAG 1.4.3",Current contrast insufficient in bright sunlight; needs glare-resistant mode,true
+6,Form validation error persistence,Internal audit,WCAG check,Error recovery,Accessibility,High,"Cognitive,SR","WCAG 3.3.1",PRG redirect loses error context in no-JS mode, false
+7,ARIA live regions for status updates,Internal audit,WCAG check,Screen reader feedback,Accessibility,Medium,SR,"WCAG 4.1.3",Success messages need proper SR announcement; polite vs assertive,false
+8,Focus indicator visibility,Internal audit,WCAG check,Keyboard navigation,Accessibility,Medium,"Keyboard,Low vision","WCAG 2.4.7",Default focus outline may be insufficient; needs testing,false
